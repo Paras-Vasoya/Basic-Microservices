@@ -1,0 +1,10 @@
+<div class="container col-md-4 offset-md-4.5 mt-5" *ngFor="let product of products">
+    <div class="dashboard">
+       <img src="https://fullyfilmy.in/cdn/shop/products/New-Mockups---no-hanger---TShirt-Yellow_800x.jpg?v=1742473683" 
+       alt="RRR Logo Minimal Yellow T-Shirt (Left Pocket)" />
+          <h6>{{ product.title }}</h6>
+          <h6>{{ product.description }}</h6>
+           <h6><strong>Price:</strong> {{ product.price | currency }}</h6>
+        <a href="#" class="btn" (click)="logOut()">Log Out</a>
+    </div>
+</div>

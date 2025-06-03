@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>G:\Paras\MicroService\IIS Host\Product</_PublishTargetUrl>
+    <History>True|2025-05-15T04:37:36.6113770Z||;True|2025-05-12T18:03:56.6806925+05:30||;False|2025-05-12T18:03:20.6016935+05:30||;True|2025-05-12T17:37:44.7690578+05:30||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ProductConnection">
+      <Value>Server=DESKTOP-6DBIAP9\MSSQLSERVER01%3b Database=MS_ProductDb%3bTrusted_Connection=True%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
